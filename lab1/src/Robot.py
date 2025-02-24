@@ -18,20 +18,20 @@ def generar_matriz(tamano, densidad_obstaculos=0.2):
             if random.random() < densidad_obstaculos:
                 matriz[i][j] = OBSTACULO
     matriz[0][0] = INICIO  # Posición inicial del robot
-    matriz[tamano - 1][tamano - 1] = DESTINO  # Posición destino
+    matriz[tamano - 1][tamano - 1] = DESTINO  # Posición del destino
     return matriz
 
-# Mostrar la matriz
+# Muestra la matriz
 def mostrar_matriz(matriz):
     for fila in matriz:
         print(" ".join(fila))
     print()
 
-# Simular el movimiento del robot
+# Simula el movimiento del robot
 def mover_robot(matriz):
     tamano = len(matriz)
     x, y = 0, 0  # Posición inicial
-    ruta = []  # Almacenar la ruta seguida
+    ruta = []  # Se Almacena la ruta seguida
     direcciones = [("derecha", 0, 1), ("abajo", 1, 0), ("izquierda", 0, -1), ("arriba", -1, 0)]
     direccion_actual = 0
 
