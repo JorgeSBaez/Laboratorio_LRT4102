@@ -26,7 +26,7 @@ class MoveTurtlePDControl:
         self.current_x = pose.x
 
     def move_turtle_to_desired_x(self, desired_x):
-        # Constantes de proporcionalidad y derivativa del controlador (ajustables)
+        # Constantes de proporcionalidad y derivativa del controlador 
         Kp = 1
         Kd = 0.1
 
