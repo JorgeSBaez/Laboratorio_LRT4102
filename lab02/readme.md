@@ -21,7 +21,46 @@ Practicas_lab/
 │   │   └── tortuga_teleop.launch
 └── README.md
 ````
+# 🗣️ Publisher-Subscriber Communication Model
+## 📢 Message Publisher (talker.py)
+### Core Functionality:
 
+- Establishes a ROS node dedicated to broadcasting data
+
+- Continuously transmits messages on a designated channel (/chatter)
+
+- Uses standardized message format (std_msgs/String)
+
+- Operates at configurable transmission frequency (default: 10Hz) 
+
+## 👂 Message Receiver (listener.py)
+### Core Functionality:
+
+- Creates a complementary ROS node for data reception
+
+- Subscribes to the publisher's channel (/chatter)
+
+- Implements automatic message handling through callbacks
+
+- Processes incoming data packets asynchronously
+
+## 🔄 Communication Dynamics
+### Real-Time Interaction
+### Connection Protocol:
+
+- Nodes automatically discover each other through ROS Master
+
+- Direct peer-to-peer link established after discovery
+
+- Connection persists until node termination
+
+### Message Handling:
+
+- Publisher maintains transmission regardless of subscriber status
+
+- Subscriber queues incoming messages (configurable depth)
+
+- Zero-copy transport used when possible for efficiency
 # ⚠️ Controller Performance Analysis
 ## 1. Proportional Control (P)
 
