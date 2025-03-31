@@ -1,1 +1,4 @@
-
+Control de posición para turtlesim (PI)
+Control de posición para turtlesim (PID)
+Comparar el desempeño de cada uno de los controladores, mediante el uso de Plot Juggler o
+alguna otra herramienta de graficación
