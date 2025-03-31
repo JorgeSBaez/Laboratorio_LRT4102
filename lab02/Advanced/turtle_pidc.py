@@ -27,7 +27,7 @@ class MoveTurtlePIDControl:
         self.current_x = pose.x
 
     def move_turtle_to_desired_x(self, desired_x):
-        # Constantes de proporcionalidad, integral y derivativa del controlador (ajustables)
+        # Constantes de proporcionalidad, integral y derivativa del controlador
         Kp = 1
         Ki = 0.01
         Kd = 0.1
