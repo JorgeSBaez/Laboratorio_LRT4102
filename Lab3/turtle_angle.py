@@ -38,7 +38,7 @@ class TurtleController:
             angle_error = angle - msg.theta
             angle_error = math.atan2(math.sin(angle_error), math.cos(angle_error))
             
-            if abs(angle_error) > 0.2:  # Fase de giro
+            if abs(angle_error) > 0.2:  # Turning phase
                 cmd.angular.z = self.kp_angular * angle_error
             else:  # Moving forward phase
                 cmd.linear.x = min(self.kp_linear * distance, 1.0)
