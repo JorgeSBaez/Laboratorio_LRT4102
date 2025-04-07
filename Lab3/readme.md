@@ -44,7 +44,7 @@ The turtle will trace a direct path toward its endpoint which demonstrates excel
 
 ## 📸 Visual Demonstration
 ![Start position](https://github.com/user-attachments/assets/8bdfe9af-ff22-4c02-92cb-dbe87bf40df5)
-- Turtle goes to the starting position assigned in the code `2.0, 2.0, 0.0`
+- Turtle goes to the starting position assigned in the code `2.0, 2.0`
 ![ATG_DTG](https://github.com/user-attachments/assets/d1e296f6-9d13-4996-81e5-4bc69d731e0f)
 - ATG and DTG parameters of the turtle movement. 
 ![Goal position](https://github.com/user-attachments/assets/02986eda-0487-483a-9c4e-f8483bbfe228)
