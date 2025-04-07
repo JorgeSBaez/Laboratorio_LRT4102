@@ -1,4 +1,4 @@
-# OS Practice Lab: TurtleSim Navigation System 
+# ROS Practice Lab: TurtleSim Navigation System 
 
 ## 🐢 How the system works?
 
