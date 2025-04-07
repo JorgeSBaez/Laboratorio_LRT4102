@@ -7,9 +7,8 @@ def setup_turtle():
     try:
         # Create a service proxy for teleportation
         teleport = rospy.ServiceProxy('/turtle1/teleport_absolute', TeleportAbsolute)
-        # Teleport turtle1 to starting position (x=2.0, y=2.0) facing right (θ=0.0)
+        # Teleport turtle1 to starting position (x=2.0, y=2.0) 
         teleport(2.0, 2.0, 0.0)  
-        # Log success message
         rospy.loginfo("Turtle in the starting position (2.0, 2.0)")
     except rospy.ServiceException as e:
         # Log error if teleportation fails
