@@ -40,7 +40,7 @@ class TurtleController:
             
             if abs(angle_error) > 0.2:  # Fase de giro
                 cmd.angular.z = self.kp_angular * angle_error
-            else:  ## Moving forward phase
+            else:  # Moving forward phase
                 cmd.linear.x = min(self.kp_linear * distance, 1.0)
                 cmd.angular.z = 0.3 * angle_error  # Smooth correction
             
