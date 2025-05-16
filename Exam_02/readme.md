@@ -113,7 +113,7 @@ README.md               # Project documentation
 
 ---
 
-## 📌 Author Notes
+## 📌 Notes
 
 This robot simulates how a visually impaired student could be guided safely to a seat. It can be extended with real sensors (e.g., ultrasonic or lidar) and used in real robots to assist navigation in classrooms, hospitals, or other indoor environments.
 
