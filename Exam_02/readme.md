@@ -1,5 +1,5 @@
 
-# 🤖 RobotGuiadoInteligente
+# 🤖 Guide Robot
 
 A smart navigation robot for classroom simulation using **ROS** and **TurtleSim**.  
 It listens to voice commands to navigate to chairs, avoids obstacles (other chairs), and provides feedback on navigation performance.
